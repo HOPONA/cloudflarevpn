@@ -1,0 +1,8 @@
+name = "cloudflarevpn"
+main = "src/worker.ts"
+compatibility_date = "2024-05-29"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "settings", id = "2aaccd4aa1e440ca842ebc01393cff6a" }
+]
